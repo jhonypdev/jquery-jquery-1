@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="./vendor/owl/css/owl.css">
+	<link rel="stylesheet" href="./vendor/fontawesome/fontawesome.css">
+	<link rel="stylesheet" href="css/nav-menu-1.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/public/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/public//favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/public//favicon-16x16.png">
+	<link rel="manifest" href="./assets/public//site.webmanifest">
+
+	<title>J Shop | Shop</title>
+</head>
+
+<body id="top">
+	<!-- Header -->
+
+	<header id="hg_300" class="header">
+
+		<!-- main Navigation -->
+		<div class="main_nav_container">
+			<div class="container">
+				<div class="row row-300">
+					<div class="col-lg-12 text-right">
+						<div class="logo_container">
+							<a href="#" class="link_primary">J <span>Shop</span></a>
+						</div>
+						<nav class="navbar">
+							<ul id="menu-active" class="navbar_menu">
+								<li><a href="index.html" class="link_primary">Home</a></li>
+								<li><a href="shopp.html" class="link_primary">Shop</a></li>
+								<li><a href="#" class="link_primary">Promotion</a></li>
+								<li><a href="#" class="link_primary">Pages</a></li>
+								<li><a href="#" class="link_primary">Blog</a></li>
+								<li><a href="contact.html" class="link_primary">Contacts</a></li>
+							</ul>
+							<ul class="navbar_user">
+								<li><a href="#" class="link_primary"><i class="fa fa-search"
+											arial-hidden="true"></i></a></li>
+								<li><a href="#" class="link_primary"><i class="fa fa-user" arial-hidden="true"></i></a>
+								</li>
+								<li class="checkout">
+									<a href="#" class="link_primary">
+										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+										<span id="checkout_items" class="checkout_items">2</span>
+									</a>
+								</li>
+							</ul>
+							<div class="hamburger_container">
+								<i class="fa fa-bars" onclick="menuB()"></i>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="banner-home"
+		style="background-image: url(assets/util/slider_2.jpg); height: 650px; width: 100%; background-position: center center;background-repeat: no-repeat; background-size: cover;">
+		<div class="container">
+			<div class="row">
+				<div class="caption-shop">
+					<h2>fashion 2023</h2>
+					<div class="line-dec"></div>
+					<p>The perfect look for every moment</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--section product-->
+
+	<div class="product-section">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title news_arrivals_title">
+						<h2>Shop</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col text-center" id="filter-buttons">
+					<div class="new_arrivals_sorting">
+						<ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center active is-checked"
+								data-filter="*">All</li>
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center"
+								data-filter=".women">Women's</li>
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center"
+								data-filter=".accessories">Accessories</li>
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center"
+								data-filter=".men">Men's</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="card-group" id="filterable-cards-a">
+						<div class="card" data-name="men">
+							<img src="assets/products/moda10.png" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+						<div class="card" data-name="men">
+							<img src="assets/products/moda11.png" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+						<div class="card" data-name="women">
+							<img src="assets/products/moda12.png" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+						<div class="card" data-name="men">
+							<img src="assets/products/moda13.png" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+					</div>
+					<div class="card-group" id="filterable-cards">
+						<div class="card" data-name="women">
+							<img src="assets/products/moda14.png" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+						<div class="card" data-name="women">
+							<img src="assets/products/moda15.png" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+						<div class="card" data-name="accessories women">
+							<img src="assets/products/acessorie1.jpg" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+						<div class="card" data-name="accessories women">
+							<img src="assets/products/acessorie2.png" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+					</div>
+					<div class="card-group" id="filterable-cards">
+						<div class="card" data-name="accessories men">
+							<img src="assets/products/acessorie3.png" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+						<div class="card" data-name="accessories men">
+							<img src="assets/products/acessorie4.png" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+						<div class="card" data-name="accessories women">
+							<img src="assets/products/acessorie5.jpg" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+						<div class="card" data-name="">
+							<img src="assets/products/acessorie6.jpg" class="card-img-top" alt="">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">Men's Solid Slim Fit Casual Shirt</a></h5>
+								<div class="product_price">R$ 520.00<span>R$ 590.00</span></div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#">Add to cart</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- Benefit -->
+	<div class="benefit">
+		<div class="container">
+			<div class="row benefit_row">
+
+				<div class="col-md-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon">
+							<i class="fa fa-truck" aria-hidden="true"></i>
+						</div>
+						<div class="benefit_content">
+							<h6>Free Shipping</h6>
+							<p>Suffered Alteration is Some Form</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon">
+							<i class="fa fa-undo" aria-hidden="true"></i>
+						</div>
+						<div class="benefit_content">
+							<h6>45 days return</h6>
+							<p>Making it Look like Readable</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon">
+							<i class="fa fa-money" aria-hidden="true"></i>
+						</div>
+						<div class="benefit_content">
+							<h6>cash on delivery</h6>
+							<p>The Internet tend To Repeat</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon">
+							<i class="fa fa-clock-o" aria-hidden="true"></i>
+						</div>
+						<div class="benefit_content">
+							<h6>opening all week</h6>
+							<p>8AM - 9PM</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Newsletter -->
+
+	<!-- <div class="newsletter">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
+							<h4>Newsletter</h4>
+							<p>Subscribe to Our Newsletter and get 20% off your first purches</p>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<form action="post">
+							<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
+								<input id="newsletter_email" type="email" placeholder="Your Email" required="required" data-error="valid email is required.">
+								<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="submit">Subscribe</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+	<!-- Footer -->
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div
+						class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
+						<ul class="footer_nav">
+							<li><a href="#">Blogs</a></li>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div
+						class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="footer_nav_container">
+						<div class="cr">&copy;2023 All Rights Reserved. This template is made with <i
+								class="fa fa-heart-o" aria-hidden="true"></i> by<a href="#">Jhony Pereira</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="scrolltop">
+		<a href="#top" class="top-button">
+			<i class="fa-solid fa-chevron-up"></i>
+		</a>
+	</div>
+
+	<script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
+	<script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/f2bfb1770b.js" crossorigin="anonymous"></script>
+	<script src="./vendor/owl/js/owl.js"></script>
+	<script src="./js/custom.js"></script>
+	<script src="./js/time.js"></script>
+	<!-- <script src="./js/shop.js"></script> -->
+</body>
+
+</html>
